@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "get-all": "node src/scripts/getAllContacts",
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globals": "^15.1.0",
+    "nodemon": "^3.1.4"
   }
 }
