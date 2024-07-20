@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "get-all": "node src/scripts/getAllContacts",
+    "get-all": "node src/scripts/getAllContacts.js",
     "generate": "node src/scripts/generateContacts.js",
     "add-one": "node src/scripts/addOneContact.js",
     "count": "node src/scripts/countContacts.js",
